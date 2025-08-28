@@ -7,3 +7,12 @@ Insights and recommendations are provided on the following key areas:
 - Ad Performance Analysis: Evaluation of ROAS, CTR, and CVR to determine campaign efficiency.
 - Time-Based Performance: Identifying weekday and monthly patterns through CTR, CVR, and ROAS to uncover seasonality and guide budget allocation.
 - Audience & Device Trends: Understanding how different devices and keywords contribute to campaign outcomes (ROAS, CTR, CVR).
+
+The SQL queries used to inspect and clean the data for this analysis can be found here
+Targeted SQL queries regarding various business questions can be found here
+An interactive Tableau dashboard can be found here
+
+# Data Structure & Initial Checks
+The dataset consists of raw, uncleaned advertising records from a Google Ads campaign with each row representing the performance of a single ad on a given date.
+
+# Executive Summary
