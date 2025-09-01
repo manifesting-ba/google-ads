@@ -9,10 +9,14 @@ Insights and recommendations are provided on the following key areas:
 - Audience & Device Trends: Understanding how different devices and keywords contribute to campaign outcomes (ROAS, CTR, CVR).
 
 The SQL queries used to inspect and clean the data for this analysis can be found here
+
 Targeted SQL queries regarding various business questions can be found here
+
 An interactive Tableau dashboard can be found here
 
 # Data Structure & Initial Checks
 The dataset consists of raw, uncleaned advertising records from a Google Ads campaign with each row representing the performance of a single ad on a given date.
+
+<img width="535" height="625" alt="a (3)" src="https://github.com/user-attachments/assets/1911039d-b3fc-410c-92c8-ac792901b250" />
 
 # Executive Summary
