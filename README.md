@@ -19,4 +19,15 @@ The dataset consists of raw, uncleaned advertising records from a Google Ads cam
 
 <img width="535" height="625" alt="a (3)" src="https://github.com/user-attachments/assets/1911039d-b3fc-410c-92c8-ac792901b250" />
 
+Before starting the analysis, several quality checks were carried out to ensure data accuracy and build familiarity with the dataset. The SQL queries used for inspection and validation can be accessed here
 # Executive Summary
+
+
+# Insights Deep Dive
+## Ad Performance Analysis:
+- Campaigns such as A2660, A2585, A3459, A1976, and A3399 consistently deliver the strongest ROAS, generating 10–11x return on ad spend. This makes them clear benchmarks for efficiency.
+- Meanwhile, campaigns including A3170, A1429, A2472, A2187, and A2687 fall significantly behind, yielding just 4x return, less than half the efficiency of top performers.
+<img width="1289" height="779" alt="ad rank" src="https://github.com/user-attachments/assets/f3e862c6-ea74-4e60-b90b-972b9921b8d6" />
+
+- High CPC
+<img width="1287" height="638" alt="highperforming ads (2)" src="https://github.com/user-attachments/assets/d423b577-3321-4de4-b5e5-3b8e14dd267a" />
