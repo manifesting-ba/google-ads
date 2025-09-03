@@ -60,3 +60,9 @@ This suggests that efficiency is key — strong ROAS comes from smart targeting 
 <img width="1287" height="608" alt="weekday (2)" src="https://github.com/user-attachments/assets/20fb52e2-5c83-4de1-a99e-2c7400b333b7" />
 
 ## Keyword & Device Trends
+- In general, ROAS across all keywords is fairly tight, ranging roughly 680%–720%.
+- “data analytics course” and “data analytics training” deliver the best efficiency — combining higher ROAS (713% and 702%) with lower CPA (about $32), making them the top performers.
+- Conversely, “online data analytics” has both the lowest ROAS (680%) and moderate CPA ($32.68), signaling poorer efficiency.
+- **Insight:** Keywords related to “course” and “training” deliver the strongest returns (higher ROAS with lower CPA) making them the most efficient investment focus.
+<img width="1289" height="608" alt="keyword" src="https://github.com/user-attachments/assets/497c91f1-1029-4236-aeac-444ee950051c" />
+- hi
