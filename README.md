@@ -6,7 +6,7 @@ This project focuses on analyzing one major Google Ads campaign promoting the co
 Insights and recommendations are provided on the following key areas:
 - Ad Performance Analysis: Evaluation of ROAS, CTR, and CVR to determine campaign efficiency.
 - Time-Based Performance: Identifying weekday and monthly patterns through CTR, CVR, and ROAS to uncover seasonality and guide budget allocation.
-- Audience & Device Trends: Understanding how different devices and keywords contribute to campaign outcomes (ROAS, CTR, CVR).
+- Keyword & Device Trends: Understanding how different devices and keywords contribute to campaign outcomes (ROAS, CTR, CVR).
 
 The SQL queries used to inspect and clean the data for this analysis can be found here
 
@@ -52,7 +52,11 @@ This suggests that efficiency is key — strong ROAS comes from smart targeting 
 - **Insight:** While CTR remains consistent throughout the year, the sharp dips in CVR in March, May, and December directly caused the lower ROAS in those months. This indicates that the campaign's biggest opportunity lies in optimizing for conversions during these specific time periods.
 <img width="1164" height="608" alt="month (2)" src="https://github.com/user-attachments/assets/2d65e046-8061-41ea-916f-ae9fb20d23c1" />
 
-- Monday has the highest CTR of the week (3.11%), but the lowest CVR (4.43%). Despite this, it achieves the second highest ROAS (706%), suggesting the high volume of clicks led to a small number of very high-value purchases.
-- Saturday has the lowest CTR (3.03%) and a slightly below-average CVR (4.65%). However, it still delivers the highest ROAS (707%), indicating that the audience on Saturdays is of higher value and more likely to convert.
+- Overall, the ROAS range is narrow (688%–707%), meaning performance differences across weekdays are minimal.
+- Monday has the highest CTR (3.11%) but the lowest CVR (4.43%). Yet it still achieves the second-highest ROAS (706%), indicating that while fewer clicks converted, those that did were tied to high-value purchases.
+- Saturday has the lowest CTR (3.03%) and a slightly below-average CVR (4.65%). However, it still delivers the highest ROAS (707%), suggesting that ads reach a smaller but more valuable audience..
 - Thursday exhibits a strong balance of both CTR and CVR (both are above average), leading to a high ROAS of 701%. It is a reliable day for a good return on investment, as it attracts a good volume of traffic that converts at a decent rate.
+- **Insight:** ROAS performance varies by day: Mondays and Saturdays succeed through high-value audiences, while Thursdays benefit from a steady flow of qualified traffic. However, the ROAS difference among weekdays is quite minimal, implying that weekday choice has limited impact on returns.
 <img width="1287" height="608" alt="weekday (2)" src="https://github.com/user-attachments/assets/20fb52e2-5c83-4de1-a99e-2c7400b333b7" />
+
+## Keyword & Device Trends
