@@ -29,5 +29,12 @@ Before starting the analysis, several quality checks were carried out to ensure 
 - Meanwhile, campaigns including A3170, A1429, A2472, A2187, and A2687 fall significantly behind, yielding just 4x return, less than half the efficiency of top performers.
 <img width="1289" height="779" alt="ad rank" src="https://github.com/user-attachments/assets/f3e862c6-ea74-4e60-b90b-972b9921b8d6" />
 
-- High CPC
-<img width="1287" height="638" alt="highperforming ads (2)" src="https://github.com/user-attachments/assets/d423b577-3321-4de4-b5e5-3b8e14dd267a" />
+- High-ROAS ads (dark blue) cluster around $12–$15 CPC, while low-ROAS ads (light blue) are mostly in the $5–$7 CPC range.
+This reinforces the pattern that paying more per click often attracts higher-intent audiences, which leads to stronger returns.
+- High-ROAS ads consistently maintain lower total spend ($180–$185) compared to low-ROAS ads, which hover around $240–$250.
+This suggests that efficiency is key — strong ROAS comes from smart targeting rather than higher budgets.
+- Strong ads tend to have higher CTR (larger bubbles) (around 4%), indicating better engagement and reach. Meanwhile, there're more weak ads with low CTR (1–2%), limiting traffic quality and scale.
+- **Insight:** Strong ROAS is driven by efficient total spend, moderate CPC, and adequate CTR (quality traffic). Low-ROAS ads are spending more but at cheaper CPCs, likely capturing less qualified traffic that fails to convert profitably.
+<img width="1287" height="638" alt="highperforming ads (2) (2)" src="https://github.com/user-attachments/assets/51e008f9-01be-4928-b8d3-f64018ce7310" />
+
+## Time-Based Performance:
