@@ -24,10 +24,11 @@ Before starting the analysis, several quality checks were carried out to ensure 
 
 
 # Insights Deep Dive
-## Ad Performance Analysis:
+## Ad Performance Analysis
 - Campaigns such as A2660, A2585, A3459, A1976, and A3399 consistently deliver the strongest ROAS, generating 10–11x return on ad spend. This makes them clear benchmarks for efficiency.
 - Meanwhile, campaigns including A3170, A1429, A2472, A2187, and A2687 fall significantly behind, yielding just 4x return, less than half the efficiency of top performers.
 <img width="1289" height="779" alt="ad rank" src="https://github.com/user-attachments/assets/f3e862c6-ea74-4e60-b90b-972b9921b8d6" />
+
 
 - High-ROAS ads (dark blue) cluster around $12–$15 CPC, while low-ROAS ads (light blue) are mostly in the $5–$7 CPC range.
 This reinforces the pattern that paying more per click often attracts higher-intent audiences, which leads to stronger returns.
@@ -35,6 +36,23 @@ This reinforces the pattern that paying more per click often attracts higher-int
 This suggests that efficiency is key — strong ROAS comes from smart targeting rather than higher budgets.
 - Strong ads tend to have higher CTR (larger bubbles) (around 4%), indicating better engagement and reach. Meanwhile, there're more weak ads with low CTR (1–2%), limiting traffic quality and scale.
 - **Insight:** Strong ROAS is driven by efficient total spend, moderate CPC, and adequate CTR (quality traffic). Low-ROAS ads are spending more but at cheaper CPCs, likely capturing less qualified traffic that fails to convert profitably.
-<img width="1287" height="638" alt="highperforming ads (2) (2)" src="https://github.com/user-attachments/assets/51e008f9-01be-4928-b8d3-f64018ce7310" />
+<img width="1287" height="638" alt="highperforming ads (2) (4)" src="https://github.com/user-attachments/assets/da11795f-b256-4ee3-aec0-bfe77f0a66db" />
 
-## Time-Based Performance:
+## Time-Based Performance
+- Overall Trend: The campaign generally performed well throughout the year, with ROAS consistently above 600%, which is a strong return.
+- Peak Months: September generated the second highest ROAS (747%) while having the lowest Average Cost per Ad ($186.67).
+- Underperforming Months: March had the lowest ROAS (652%). Similarly, May received poor returns (686%) despite relatively high average costs.
+- Declining End-of-Year Performance: ROAS gradually declined between September and December, dropping from 747% to 657%. This could be due to the fact that potential students are more focused on holidays rather than professional development around this time of year.
+- **Insight:** The campaign's monthly performance shows peak efficiency in September, while the year-end period, especially December, consistently underperforms potentially due to audience disengagement.
+<img width="1214" height="608" alt="month" src="https://github.com/user-attachments/assets/0520ec74-dc3d-4ee5-958d-8053114d4dea" />
+
+
+- Stable Click-Through Rate (CTR): CTR is remarkably consistent throughout the entire year, hovering between 2.8% and 3.5%. This indicates that the ad creative, copy, and targeting were consistently effective at grabbing attention and convincing users to click. 
+- Volatile Conversion Rate (CVR): In contrast, CVR is unstable throughout the year. The significant dips in CVR in March, May, and December directly correspond to the lower ROAS seen in those same months on the previous chart.
+- **Insight:** While CTR remains consistent throughout the year, the sharp dips in CVR in March, May, and December directly caused the lower ROAS in those months. This indicates that the campaign's biggest opportunity lies in optimizing for conversions during these specific time periods.
+<img width="1164" height="608" alt="month (2)" src="https://github.com/user-attachments/assets/2d65e046-8061-41ea-916f-ae9fb20d23c1" />
+
+- Monday has the highest CTR of the week (3.11%), but the lowest CVR (4.43%). Despite this, it achieves the second highest ROAS (706%), suggesting the high volume of clicks led to a small number of very high-value purchases.
+- Saturday has the lowest CTR (3.03%) and a slightly below-average CVR (4.65%). However, it still delivers the highest ROAS (707%), indicating that the audience on Saturdays is of higher value and more likely to convert.
+- Thursday exhibits a strong balance of both CTR and CVR (both are above average), leading to a high ROAS of 701%. It is a reliable day for a good return on investment, as it attracts a good volume of traffic that converts at a decent rate.
+<img width="1287" height="608" alt="weekday (2)" src="https://github.com/user-attachments/assets/20fb52e2-5c83-4de1-a99e-2c7400b333b7" />
