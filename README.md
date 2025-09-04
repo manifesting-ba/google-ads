@@ -65,4 +65,8 @@ This suggests that efficiency is key — strong ROAS comes from smart targeting 
 - Conversely, “online data analytics” has both the lowest ROAS (680%) and moderate CPA ($32.68), signaling poorer efficiency.
 - **Insight:** Keywords related to “course” and “training” deliver the strongest returns (higher ROAS with lower CPA) making them the most efficient investment focus.
 <img width="1289" height="608" alt="keyword" src="https://github.com/user-attachments/assets/497c91f1-1029-4236-aeac-444ee950051c" />
-- hi
+
+- “data analytics course” has the second highest CTR (3.11%) and solid CVR (4.64%) with decent impressions per ad (4470), making it a consistent performer. Additionally, it also delivers the highest ROAS, showing both engagement and profitability.
+- “online data analytics” has good CTR (3.12%) and CVR (4.76%) with moderate impressions per ad (4404), indicating strong engagement. Nevertheless, it still delivers the lowest ROAS, meaning the conversions it generates bring in less revenue compared to other keywords.
+- “Data analytics course” stands out as the most scalable keyword due to its balance of engagement and profitability, while “online data analytics” requires cost or targeting optimization to convert its strong engagement into stronger returns.
+- 
