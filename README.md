@@ -6,7 +6,8 @@ This project focuses on analyzing one major Google Ads campaign promoting the co
 Insights and recommendations are provided on the following key areas:
 - Ad Performance Analysis: Evaluation of ROAS, CTR, and CVR to determine campaign efficiency.
 - Time-Based Performance: Identifying weekday and monthly patterns through CTR, CVR, and ROAS to uncover seasonality and guide budget allocation.
-- Keyword & Device Trends: Understanding how different devices and keywords contribute to campaign outcomes (ROAS, CTR, CVR).
+- Keyword Analysis: Assessment of ROAS, CTR, CVR, and average impressions to understand keyword performance.
+- Device Trends: Understanding how different devices contribute to campaign outcomes (ROAS, CTR, CVR).
 
 The SQL queries used to inspect and clean the data for this analysis can be found here
 
@@ -59,14 +60,22 @@ This suggests that efficiency is key — strong ROAS comes from smart targeting 
 - **Insight:** ROAS performance varies by day: Mondays and Saturdays succeed through high-value audiences, while Thursdays benefit from a steady flow of qualified traffic. However, the ROAS difference among weekdays is quite minimal, implying that weekday choice has limited impact on returns.
 <img width="1287" height="608" alt="weekday (2)" src="https://github.com/user-attachments/assets/20fb52e2-5c83-4de1-a99e-2c7400b333b7" />
 
-## Keyword & Device Trends
+## Keyword Analysis
 - In general, ROAS across all keywords is fairly tight, ranging roughly 680%–720%.
 - “data analytics course” and “data analytics training” deliver the best efficiency — combining higher ROAS (713% and 702%) with lower CPA (about $32), making them the top performers.
 - Conversely, “online data analytics” has both the lowest ROAS (680%) and moderate CPA ($32.68), signaling poorer efficiency.
 - **Insight:** Keywords related to “course” and “training” deliver the strongest returns (higher ROAS with lower CPA) making them the most efficient investment focus.
 <img width="1289" height="608" alt="keyword" src="https://github.com/user-attachments/assets/497c91f1-1029-4236-aeac-444ee950051c" />
 
-- “data analytics course” has the second highest CTR (3.11%) and solid CVR (4.64%) with decent impressions per ad (4470), making it a consistent performer. Additionally, it also delivers the highest ROAS, showing both engagement and profitability.
-- “online data analytics” has good CTR (3.12%) and CVR (4.76%) with moderate impressions per ad (4404), indicating strong engagement. Nevertheless, it still delivers the lowest ROAS, meaning the conversions it generates bring in less revenue compared to other keywords.
-- “Data analytics course” stands out as the most scalable keyword due to its balance of engagement and profitability, while “online data analytics” requires cost or targeting optimization to convert its strong engagement into stronger returns.
-- 
+- “data analytics course” has the second highest CTR (3.11%) and solid CVR (4.64%) with decent impressions per ad (4,470), making it a consistent performer. Additionally, it also delivers the highest ROAS, showing both engagement and profitability.
+- “online data analytics” has good CTR (3.12%) and CVR (4.76%) with moderate impressions per ad (4,404), indicating strong engagement. Nevertheless, it still delivers the lowest ROAS, meaning the conversions it generates bring in less revenue compared to other keywords.
+- “analytics for data” records the highest average impressions (4,546) but underperforms on both CTR (3%) and CVR (4.61%), leading to lower ROAS.
+- **Insight:** “data analytics course” stands out as the most scalable keyword due to its balance of engagement and profitability, while “online data analytics” and “analytics for data” underperform by failing to turn its high engagement and visibility into strong returns.
+<img width="1334" height="638" alt="keyword (3)" src="https://github.com/user-attachments/assets/3cf18455-bf97-4ee4-a500-6c3e418348d8" />
+
+## Device Trends
+- In general, ROAS and CPA doesn't vary much
+- Desktop has the highest ROAS and lowest CPA, making it ideal
+- Desktop also has highest CVR
+- Mobile has good CTR
+- hi
