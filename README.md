@@ -74,8 +74,10 @@ This suggests that efficiency is key — strong ROAS comes from smart targeting 
 <img width="1334" height="638" alt="keyword (3)" src="https://github.com/user-attachments/assets/3cf18455-bf97-4ee4-a500-6c3e418348d8" />
 
 ## Device Trends
-- In general, ROAS and CPA doesn't vary much
-- Desktop has the highest ROAS and lowest CPA, making it ideal
-- Desktop also has highest CVR
-- Mobile has good CTR
-- hi
+- In general, ROAS and CPA across devices does not vary much, suggesting efficiency differences are not significant.
+- Desktop has the highest ROAS () and lowets CPA () , making it the most profitable channel.
+- **Insight:** Desktop delivers the strongest efficiency, combining the highest ROAS with the lowest CPA. However, the overall performance gap across devices is minimal, indicating all platforms deliver relatively consistent returns.
+
+- In terms of CVR, desktop leads
+- 
+
