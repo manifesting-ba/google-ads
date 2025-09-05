@@ -62,13 +62,13 @@ Before starting the analysis, several quality checks were carried out to ensure 
 - In general, **ROAS** across all keywords is **fairly tight**, ranging roughly 680%–720%.
 - **“data analytics course” and “data analytics training”** deliver the **best efficiency** — combining higher ROAS (713% and 702%) with lower CPA (about $32), making them the top performers.
 - Conversely, **“online data analytics”** has both the lowest ROAS (680%) and moderate CPA ($32.68), signaling **poorer efficiency**.
-- **Insight:** Keywords related to “course” and “training” deliver the **strongest returns** (higher ROAS with lower CPA), making them the **most efficient investment focus**.
+- **Insight:** Keywords related to “course” and “training” deliver the **strongest returns** (higher ROAS with lower CPA), making them the **most efficient investment focus**. However, the **ROAS difference** is relatively **marginal**.
 <img width="1289" height="608" alt="keyword" src="https://github.com/user-attachments/assets/497c91f1-1029-4236-aeac-444ee950051c" />
 
 - **“data analytics course”** has the second-highest CTR (3.11%) and solid CVR (4.64%) with decent impressions per ad (4,470), making it a consistent performer. Additionally, it also delivers the highest ROAS, showing both **engagement and profitability**.
 - **“online data analytics”** has good CTR (3.12%) and CVR (4.76%) with moderate impressions per ad (4,404), indicating **strong engagement**. Nevertheless, it still delivers the lowest ROAS, meaning the conversions it generates bring in **less revenue** compared to other keywords.
-- **“analytics for data”** records the highest average impressions (4,546) but **underperforms on both CTR** (3%) **and CVR** (4.61%), leading to lower ROAS.
-- **Insight:** “data analytics course” stands out as the **most scalable keyword** due to its balance of engagement and profitability, while “online data analytics” and “analytics for data” underperform by **failing to turn its high engagement and visibility into strong returns**.
+- **“analytics for data”** records the highest average impressions (4,546) but **underperforms on both CTR** (3%) **and CVR** (4.61%), leading to a second-lowest ROAS (692%).
+- **Insight:** **“data analytics course”** stands out as the **most scalable keyword** due to its balance of engagement and profitability, while **“online data analytics”** and **“analytics for data”** underperform by **failing to turn its high engagement and visibility into strong returns**.
 <img width="1334" height="638" alt="keyword (3)" src="https://github.com/user-attachments/assets/3cf18455-bf97-4ee4-a500-6c3e418348d8" />
 
 ## Device Trends
@@ -80,9 +80,19 @@ Before starting the analysis, several quality checks were carried out to ensure 
 <img width="939" height="408" alt="device 2" src="https://github.com/user-attachments/assets/ae778bb2-cbd3-42ac-a1f2-ea6b867ef514" />
 
 # Recommendations
-- **Prioritize placements** and **audiences that drive high-intent traffic**, even at higher CPCs, instead of focusing only on cheap clicks. For instance, the company can **run CPC tests** on low-ROAS ads to see if slightly higher bids capture stronger, more valuable traffic.
+Based on the insights and findings above, we would recommend the Marketing Team to consider the following:
+- **Prioritize placements** and **audiences that drive high-intent traffic**, even at higher CPCs, instead of focusing only on cheap clicks. 
 - **Improve creatives and ad copy** for **low-ROAS ads (A3170, A2128, A1299, A1429)** to lift CTR, while monitoring CVR to ensure new traffic maintains conversion quality.
-- **Capitalize on September’s peak efficiency.** **Allocate more budget** and **scale campaigns during September** when audience responsiveness and profitability are equally strong. In addition, **deep dive into September**. Based on that, we can **set up A/B tests** to systematically test variables like ad copy, landing pages, and call-to-actions to see if we can replicate the high ROAS in other months.
-- The decline in ROAS in Q4 (especially December) suggests that the existing campaign strategy may not be optimized for the holiday season. A **new approach for this period** might be necessary to better compete and maintain profitability.
+- **Capitalize on September’s peak efficiency.** **Allocate more budget** and **scale campaigns during September** when audience responsiveness and profitability are equally strong. Also, **deep dive into this month**. Based on that, we can **set up A/B tests** to systematically test variables like ad copy, landing pages, and call-to-actions to see if we can replicate the high ROAS in other months.
+- The decline in ROAS in Q4 (especially December) suggests that the existing campaign strategy may not be optimized for the **holiday season**. A **new approach for this period** might be necessary to better compete and maintain profitability.
 - Optimize for conversions in weak months. Focus on **improving landing page UX, offers, or remarketing strategies in March, May, and December** where CVR dips drive low ROAS.
-- While weekday choice has minimal impact overall, Mondays and Saturdays can be prioritized for premium campaigns since they show slightly higher returns thanks to high-value audience. 
+- While **weekday choice** has **minimal impact overall**, **Mondays and Saturdays** can be prioritized for **premium campaigns** since they show slightly higher returns thanks to high-value audience. **Thursdays** are well-suited for **standard campaign launches** given its strong balance of both CTR and CVR.
+- **Scale campaigns around “data analytics course”**. Increase bids and expand variations (e.g., “best data analytics course,” “professional data analytics course”) to capture more qualified traffic, while developing tailored landing pages to capitalize on its strong engagement and profitablity.
+- **Re-evaluate “online data analytics” for cost efficiency**. Since CTR and CVR are strong but ROAS is lowest, investigate whether high CPCs or low-value conversions are driving poor returns.
+- **Reposition or downscale “analytics for data”**. Despite highest average impressions, its weak CTR and CVR show that users aren’t compelled to click or convert. Thus, either **refine targeting and ad copy** to improve conversion efficiency or reallocate spend to higher-performing terms.
+- Use **mobile** to drive **discovery and engagement**, and **desktop** to drive **conversions**:
+  - **Promote higher-value offerings** (bundles, advanced courses, premium packages) on **desktops** since users here show stronger conversion intent.
+  - **Optimize landing pages for speed and simplicity**, testing shorter ad copy, and adding “save for later” or remarketing hooks to convert **mobile** browsers into desktop buyers.
+  - **Ensure a seamless cross-device journey**. Mobile clickers should easily continue on desktop (e.g., via email remarketing, retargeting, or logged-in user flows).
+
+  
