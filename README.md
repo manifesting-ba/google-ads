@@ -18,7 +18,7 @@ An interactive Tableau dashboard can be found here
 # Data Structure & Initial Checks
 The dataset consists of raw, uncleaned advertising records from a Google Ads campaign with each row representing the performance of a single ad on a given date.
 
-<img width="535" height="625" alt="a (3)" src="https://github.com/user-attachments/assets/1911039d-b3fc-410c-92c8-ac792901b250" />
+<img width="535" height="625" alt="a" src="https://github.com/user-attachments/assets/44dbc41b-93e2-4b6c-b02f-e53c8b7a462c" />
 
 Before starting the analysis, several quality checks were carried out to ensure data accuracy and build familiarity with the dataset. The SQL queries used for inspection and validation can be accessed here
 # Executive Summary
@@ -80,3 +80,9 @@ Before starting the analysis, several quality checks were carried out to ensure 
 <img width="939" height="408" alt="device 2" src="https://github.com/user-attachments/assets/ae778bb2-cbd3-42ac-a1f2-ea6b867ef514" />
 
 # Recommendations
+- **Prioritize placements** and **audiences that drive high-intent traffic**, even at higher CPCs, instead of focusing only on cheap clicks. For instance, the company can **run CPC tests** on low-ROAS ads to see if slightly higher bids capture stronger, more valuable traffic.
+- **Improve creatives and ad copy** for **low-ROAS ads (A3170, A2128, A1299, A1429)** to lift CTR, while monitoring CVR to ensure new traffic maintains conversion quality.
+- **Capitalize on September’s peak efficiency.** **Allocate more budget** and **scale campaigns during September** when audience responsiveness and profitability are equally strong. In addition, **deep dive into September**. Based on that, we can **set up A/B tests** to systematically test variables like ad copy, landing pages, and call-to-actions to see if we can replicate the high ROAS in other months.
+- The decline in ROAS in Q4 (especially December) suggests that the existing campaign strategy may not be optimized for the holiday season. A **new approach for this period** might be necessary to better compete and maintain profitability.
+- Optimize for conversions in weak months. Focus on **improving landing page UX, offers, or remarketing strategies in March, May, and December** where CVR dips drive low ROAS.
+- While weekday choice has minimal impact overall, Mondays and Saturdays can be prioritized for premium campaigns since they show slightly higher returns thanks to high-value audience. 
