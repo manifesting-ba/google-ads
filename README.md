@@ -22,7 +22,8 @@ The dataset consists of raw, uncleaned advertising records from a Google Ads cam
 
 Before starting the analysis, several quality checks were carried out to ensure data accuracy and build familiarity with the dataset. The SQL queries used for inspection and validation can be accessed here
 # Executive Summary
-
+## Overview of Findings
+From this analysis, three main insights stand out. First, **“data analytics course” is the most scalable and profitable keyword**, while alternatives like “online data analytics” and “analytics for data” underperform despite engagement. Second, **high ROAS is driven by quality traffic and efficient spend**, not simply by lowering CPC, meaning **targeting and creative matter** more than chasing cheap clicks. Finally, **timing shapes performance**, with September as the strongest month and the end-of-year period consistently underperforming, while weekday variation is minimal but Mondays, Thursdays, and Saturdays offer specific opportunities.
 
 # Insights Deep Dive
 ## Ad Performance Analysis
@@ -95,4 +96,4 @@ Based on the insights and findings above, we would recommend the Marketing Team 
   - **Optimize landing pages for speed and simplicity**, testing shorter ad copy, and adding “save for later” or remarketing hooks to convert **mobile** browsers into desktop buyers.
   - **Ensure a seamless cross-device journey**. Mobile clickers should easily continue on desktop (e.g., via email remarketing, retargeting, or logged-in user flows).
 
-  
+# Assumptions and Caveats
