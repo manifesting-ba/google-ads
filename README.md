@@ -4,10 +4,10 @@ Analytica Institute is a sample EdTech company that provides specialized data an
 This project focuses on analyzing one major Google Ads campaign promoting the company’s courses. By cleaning, consolidating, and synthesizing this data, the analysis aims to uncover actionable insights that will **improve campaign efficiency** and overall **business performance**.
 
 Insights and recommendations are provided on the following key areas:
-- Ad Performance Analysis: Evaluation of ROAS, Ad Cost, CPC, and CTR to understand what drives successful ads.
-- Time-Based Performance: Identifying weekday and monthly patterns through CTR, CVR, Average Cost per Ad and ROAS to uncover seasonality and guide budget allocation.
-- Keyword Analysis: Assessment of ROAS, CPA, CTR, CVR, and Average Impressions per Ad to understand keyword performance.
-- Device Trends: Understanding how different devices contribute to campaign outcomes (ROAS, CPA, CTR, CVR).
+- Ad Performance Analysis: Evaluation of ROAS, Ad Cost, CPC, and CTR to identify the drivers of high- and low-performing ads.
+- Time-Based Performance: Identifying weekday and monthly patterns through CTR, CVR, Average Cost per Ad and ROAS to uncover seasonality.
+- Keyword Effectiveness: Assessment of ROAS, CPA, CTR, CVR, and Average Impressions per Ad to determine the efficiency and scalability of individual keywords.
+- Device Trends: Analysis of ROAS, CPA, CTR, and CVR across devices to discover the strengths of each device.
 
 The SQL queries used to inspect and clean the data for this analysis can be found here
 
@@ -24,6 +24,8 @@ Before starting the analysis, several quality checks were carried out to ensure 
 # Executive Summary
 ## Overview of Findings
 From this analysis, three main insights stand out. First, **“data analytics course” is the most scalable and profitable keyword**, while alternatives like “online data analytics” and “analytics for data” underperform despite engagement. Second, **high ROAS is driven by quality traffic and efficient spend**, not simply by lowering CPC, meaning **targeting and creative matter** more than chasing cheap clicks. Finally, **timing shapes performance**, with September as the strongest month and the end-of-year period consistently underperforming, while weekday variation is minimal but Mondays, Thursdays, and Saturdays offer specific opportunities.
+
+<img width="1302" height="799" alt="Tableau de bord 1 (3)" src="https://github.com/user-attachments/assets/693d9ff7-471e-4c83-83b6-36427312da71" />
 
 # Insights Deep Dive
 ## Ad Performance Analysis
@@ -59,7 +61,7 @@ From this analysis, three main insights stand out. First, **“data analytics co
 - **Insight:** ROAS performance **varies by day**: Mondays and Saturdays succeed through high-value audiences, while Thursdays benefit from a steady flow of qualified traffic. However, the **difference** among weekdays is quite **minimal**, implying that **weekday choice has limited impact on returns**.
 <img width="1287" height="608" alt="weekday (2)" src="https://github.com/user-attachments/assets/20fb52e2-5c83-4de1-a99e-2c7400b333b7" />
 
-## Keyword Analysis
+## Keyword Effectiveness
 - In general, **ROAS** across all keywords is **fairly tight**, ranging roughly 680%–720%.
 - **“data analytics course” and “data analytics training”** deliver the **best efficiency** — combining higher ROAS (713% and 702%) with lower CPA (about $32), making them the top performers.
 - Conversely, **“online data analytics”** has both the lowest ROAS (680%) and moderate CPA ($32.68), signaling **poorer efficiency**.
@@ -97,3 +99,6 @@ Based on the insights and findings above, we would recommend the Marketing Team 
   - **Ensure a seamless cross-device journey**. Mobile clickers should easily continue on desktop (e.g., via email remarketing, retargeting, or logged-in user flows).
 
 # Assumptions and Caveats
+- **Synthetic dataset:** This project is based on a synthetic dataset designed to simulate realistic campaign performance. While the trends and insights are valid for analysis practice, they may not fully reflect actual market behavior.
+- **Time trends:** Seasonal effects (end-of-year audience fatigue) are assumed based on observed patterns but not directly verified by external market factors.
+- **Close differences:** In some metrics such as weekday ROAS, keyword CTR, device ROAS, device CTR, the differences between groups are minimal, so conclusions should be interpreted cautiously.
