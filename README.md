@@ -1,7 +1,7 @@
 # Project Background
 Analytica Institute is a sample EdTech company that provides specialized data analytics courses and certifications. Digital marketing—particularly through Google Ads—plays a central role in the company’s customer acquisition strategy, driving awareness, conversions, and long-term enrollments. 
 
-This project focuses on analyzing one major Google Ads campaign promoting the company’s courses. By cleaning, consolidating, and synthesizing this data, the analysis aims to uncover actionable insights that will **improve campaign efficiency** and overall **business performance**.
+This project focuses on analyzing one major Google Ads campaign promoting the company’s courses. By cleaning, consolidating, and synthesizing this data, the analysis aims to uncover actionable insights that will **enhance marketing strategy** and **drive sustainable growth**.
 
 Insights and recommendations are provided on the following key areas:
 - Ad Performance Analysis: Evaluation of ROAS, Ad Cost, CPC, and CTR to identify the drivers of high- and low-performing ads.
