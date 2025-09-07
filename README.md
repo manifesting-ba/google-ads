@@ -78,7 +78,7 @@ From this analysis, three main insights stand out. First, **“data analytics co
 - **Desktop** not only has the highest ROAS (700%) and lowest CPA ($32.60) but also converts best (4.77%), making it the **most profitable and efficient** device.
 - **Mobile**, while slightly less efficient in ROAS & CPA, achieves the highest CTR (3.08%) and solid CVR (4.7%), proving its role as a **high-engagement** channel.
 - However, performance **differences are minimal** overall, meaning no device truly outshines or underperforms.
-- **Insight:** Although desktop stands out for efficiency and mobile for engagement, the performance gap across devices is not highly significant.
+- **Insight:** Although **desktop stands out for efficiency** and **mobile for engagement**, the **performance gap** across devices is **not highly significant**.
 <img width="939" height="469" alt="device" src="https://github.com/user-attachments/assets/8d7c2921-b6d2-4022-8fcb-e22f62e2d88a" />
 <img width="939" height="408" alt="device 2" src="https://github.com/user-attachments/assets/ae778bb2-cbd3-42ac-a1f2-ea6b867ef514" />
 
@@ -92,7 +92,7 @@ Based on the insights and findings above, we would recommend the Marketing Team 
 - While **weekday choice** has **minimal impact overall**, **Mondays and Saturdays** can be prioritized for **premium campaigns** since they show slightly higher returns thanks to high-value audience. **Thursdays** are well-suited for **standard campaign launches** given its strong balance of both CTR and CVR.
 - **Scale campaigns around “data analytics course”**. Increase bids and expand variations (e.g., “best data analytics course,” “professional data analytics course”) to capture more qualified traffic, while developing tailored landing pages to capitalize on its strong engagement and profitablity.
 - **Re-evaluate “online data analytics” for cost efficiency**. Since CTR and CVR are strong but ROAS is lowest, investigate whether high CPCs or low-value conversions are driving poor returns.
-- **Reposition or downscale “analytics for data”**. Despite highest average impressions, its weak CTR and CVR show that users aren’t compelled to click or convert. Thus, either **refine targeting and ad copy** to improve conversion efficiency or reallocate spend to higher-performing terms.
+- **Reposition or downscale “analytics for data”**. Despite highest average impressions, its weak CTR and CVR show that users aren’t compelled to click or convert. Thus, either **refine targeting and ad copy** to improve conversion efficiency or **reallocate spend** to higher-performing terms.
 - Use **mobile** to drive **discovery and engagement**, and **desktop** to drive **conversions**:
   - **Promote higher-value offerings** (bundles, advanced courses, premium packages) on **desktops** since users here show stronger conversion intent.
   - **Optimize landing pages for speed and simplicity**, testing shorter ad copy, and adding “save for later” or remarketing hooks to convert **mobile** browsers into desktop buyers.
