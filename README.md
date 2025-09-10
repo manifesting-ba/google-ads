@@ -72,7 +72,7 @@ From this analysis, three main insights stand out. First, **“data analytics co
 - **“online data analytics”** has good CTR (3.12%) and CVR (4.76%) with moderate impressions per ad (4,404), indicating **strong engagement**. Nevertheless, it still delivers the lowest ROAS, meaning the conversions it generates bring in **less revenue** compared to other keywords.
 - **“analytics for data”** records the highest average impressions (4,546) but **underperforms on both CTR** (3%) **and CVR** (4.61%), leading to a second-lowest ROAS (692%).
 - **Insight:** **“data analytics course”** stands out as the **most scalable keyword** due to its balance of engagement and profitability, while **“online data analytics”** and **“analytics for data”** underperform by **failing to turn its high engagement and visibility into strong returns**.
-<img width="1334" height="638" alt="keyword (3)" src="https://github.com/user-attachments/assets/3cf18455-bf97-4ee4-a500-6c3e418348d8" />
+<img width="969" height="489" alt="keyword (3) (2)" src="https://github.com/user-attachments/assets/2ff0d342-bba2-4848-a0b6-0ae48c33788d" />
 
 ## Device Trends
 - **Desktop** not only has the highest ROAS (700%) and lowest CPA ($32.60) but also converts best (4.77%), making it the **most profitable and efficient** device.
