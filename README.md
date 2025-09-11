@@ -9,36 +9,35 @@ Insights and recommendations are provided on the following key areas:
 - Keyword Effectiveness: Assessment of ROAS, CPA, CTR, CVR, and Average Impressions per Ad to determine the efficiency and scalability of individual keywords.
 - Device Trends: Analysis of ROAS, CPA, CTR, and CVR across devices to discover the strengths of each device.
 
-The SQL queries used to inspect and clean the data for this analysis can be found here
+The SQL queries used to inspect and clean the data for this analysis can be found [here](https://github.com/manifesting-ba/google-ads/blob/6723ff105238d15d1ac3108c9c84d85e543dee25/data%20cleaning.sql)
 
-Targeted SQL queries regarding various business questions can be found here
+Targeted SQL queries regarding various business questions can be found [here](https://github.com/manifesting-ba/google-ads/blob/6723ff105238d15d1ac3108c9c84d85e543dee25/EDA.sql)
 
-An interactive Tableau dashboard can be found here
+An interactive Tableau dashboard can be found [here](https://public.tableau.com/views/ads_17563760681450/dashboard?:language=en-US&:sid=&:redirect=auth&:display_count=n&:origin=viz_share_link).
 
 # Data Structure & Initial Checks
 The dataset consists of raw, uncleaned advertising records from a Google Ads campaign with each row representing the performance of a single ad on a given date.
 
 <img width="535" height="625" alt="a" src="https://github.com/user-attachments/assets/44dbc41b-93e2-4b6c-b02f-e53c8b7a462c" />
 
-Before starting the analysis, several quality checks were carried out to ensure data accuracy and build familiarity with the dataset. The SQL queries used for inspection and validation can be accessed here
+Before starting the analysis, several quality checks were carried out to ensure data accuracy and build familiarity with the dataset. The SQL queries used for inspection and validation can be accessed [here](https://github.com/manifesting-ba/google-ads/blob/6723ff105238d15d1ac3108c9c84d85e543dee25/data%20cleaning.sql)
 # Executive Summary
 ## Overview of Findings
-From this analysis, three main insights stand out. First, **“data analytics course” is the most scalable and profitable keyword**, while alternatives like “online data analytics” and “analytics for data” underperform despite engagement. Second, **high ROAS is driven by quality traffic and efficient spend**, not simply by lowering CPC, meaning **targeting and creative matter** more than chasing cheap clicks. Finally, **timing shapes performance**, with September as the strongest month and the end-of-year period consistently underperforming, while weekday variation is minimal but Mondays, Thursdays, and Saturdays offer specific opportunities.
+The campaign **spent $538K** and **generated $3.7M in revenue**, achieving a **strong 698% ROAS**. Efficiency metrics were solid overall, with **CPC at $1.55, CPA at $33, CTR at 3.1%, and CVR at 4.7%**. From this analysis, **three main insights** stand out. First, **“data analytics course” is the most scalable and profitable keyword**, while alternatives like “online data analytics” and “analytics for data” underperform despite engagement. Second, **high ROAS is driven by quality traffic and efficient spend**, meaning campaigns should **focus on smarter targeting and creative quality**. Finally, **timing shapes performance**, with September as the strongest month and the end-of-year period consistently underperforming, while weekday variation is minimal but Mondays, Thursdays, and Saturdays offer specific opportunities.
 
-<img width="1302" height="799" alt="Tableau de bord 1 (3)" src="https://github.com/user-attachments/assets/693d9ff7-471e-4c83-83b6-36427312da71" />
+<img width="1040" height="519" alt="overview" src="https://github.com/user-attachments/assets/34e2bbab-7721-440f-9cee-5586630b79d7" />
 
 # Insights Deep Dive
 ## Ad Performance Analysis
 - Campaigns such as A2660, A2585, A3459, A1976, and A3399 **deliver the strongest ROAS**, **generating 10–11x return on ad spend**. This makes them clear benchmarks for efficiency.
-- Meanwhile, campaigns including A3170, A1429, A2472, A2187, and A2687 fall significantly behind, yielding just **4x return**, **less than half** the efficiency of top performers.
+- Meanwhile, campaigns like A3170, A1429, A2472, A2187, and A2687 fall significantly behind, yielding just **4x return**, **less than half** the efficiency of top performers.
 <img width="1289" height="779" alt="ad rank" src="https://github.com/user-attachments/assets/f3e862c6-ea74-4e60-b90b-972b9921b8d6" />
 
-
-- High-ROAS ads (dark blue) cluster around $12–$15 CPC, while low-ROAS ads (light blue) are mostly in the $5–$7 CPC range. This reinforces the pattern that **paying more per click often attracts higher-intent audiences**, which may lead to stronger returns.
-- High-ROAS ads consistently maintain lower total spend ($180–$185) compared to low-ROAS ads, which hover around $240–$250. This suggests that efficiency is key — **strong ROAS comes from smart targeting** rather than higher budgets.
-- High-ROAS ads tend to have higher CTR (larger bubbles) (around 4%), indicating **better engagement and reach**. Meanwhile, there're more weak ads with low CTR (1–2%), limiting traffic quality and scale.
-- **Insight:** Strong ROAS is driven by **efficient total spend, moderate CPC, and adequate CTR (quality traffic)**. Low-ROAS ads are spending more but at cheaper CPCs, likely capturing less qualified traffic that fails to convert profitably.
-<img width="1287" height="638" alt="highperforming ads (2) (4)" src="https://github.com/user-attachments/assets/da11795f-b256-4ee3-aec0-bfe77f0a66db" />
+- High-ROAS ads (larger bubbles) cluster at lower CPC levels ($1.0–$1.5), while low-ROAS ads (smaller bubbles) sit at higher CPCs ($1.5–$3.0). This shows that **overspending per click does not guarantee quality** — in fact, it often erodes returns.
+- High-ROAS ads consistently maintain lower total spend ($180–$184) compared to low-ROAS ads, which hover around $240–$250. This suggests that efficiency is key — **strong ROAS comes from smart targeting** rather than higher budgets.
+- **Desktop dominates strong ROAS ads**, while **Mobile** and especially **Tablet** appear more often among **weaker ROAS ads**, suggesting performance differences may **tie to platform**.
+- **Insight:** **Strong ROAS** comes from **efficient spend, controlled CPCs, and (in most cases) Desktop traffic**, while **weak ROAS** is tied to **overspending, inflated CPCs, and heavier reliance on Tablet**.
+<img width="1287" height="638" alt="highperforming ads (2) (5)" src="https://github.com/user-attachments/assets/d2b2aac1-6ffd-4e1d-8bae-f2a6eb667185" />
 
 ## Time-Based Performance
 - **Overall Trend:** The campaign **generally performed well** throughout the year, with ROAS consistently above 600%, which is a **strong return**.
@@ -75,7 +74,7 @@ From this analysis, three main insights stand out. First, **“data analytics co
 <img width="969" height="489" alt="keyword (3) (2)" src="https://github.com/user-attachments/assets/2ff0d342-bba2-4848-a0b6-0ae48c33788d" />
 
 ## Device Trends
-- **Desktop** not only has the highest ROAS (700%) and lowest CPA ($32.60) but also converts best (4.77%), making it the **most profitable and efficient** device.
+- **Desktop** not only has the highest ROAS (700%) and lowest CPA ($32.60) but also converts best (4.77%), making it the **most profitable and efficient** device. This **aligns** with the earlier ad performance findings, where most high-performing ads are supported by desktop traffic.
 - **Mobile**, while slightly less efficient in ROAS & CPA, achieves the highest CTR (3.08%) and solid CVR (4.7%), proving its role as a **high-engagement** channel.
 - However, performance **differences are minimal** overall, meaning no device truly outshines or underperforms.
 - **Insight:** Although **desktop stands out for efficiency** and **mobile for engagement**, the **performance gap** across devices is **not highly significant**.
@@ -84,7 +83,7 @@ From this analysis, three main insights stand out. First, **“data analytics co
 
 # Recommendations
 Based on the insights and findings above, we would recommend the Marketing Team to consider the following:
-- **Prioritize placements** and **audiences that drive high-intent traffic**, even at higher CPCs, instead of focusing only on cheap clicks. 
+- **Set tighter bid caps** to keep CPCs in the $1.0–$1.5 range, where high-ROAS ads cluster.
 - **Improve creatives and ad copy** for **low-ROAS ads (A3170, A2128, A1299, A1429)** to lift CTR, while monitoring CVR to ensure new traffic maintains conversion quality.
 - **Capitalize on September’s peak efficiency.** **Allocate more budget** and **scale campaigns during September** when audience responsiveness and profitability are equally strong. Also, **deep dive into this month**. Based on that, we can **set up A/B tests** to systematically test variables like ad copy, landing pages, and call-to-actions to see if we can replicate the high ROAS in other months.
 - The decline in ROAS in Q4 (especially December) suggests that the existing campaign strategy may not be optimized for the **holiday season**. A **new approach for this period** might be necessary to better compete and maintain profitability.
