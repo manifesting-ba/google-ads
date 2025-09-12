@@ -23,7 +23,9 @@ The dataset consists of raw, uncleaned advertising records from a Google Ads cam
 Before starting the analysis, several quality checks were carried out to ensure data accuracy and build familiarity with the dataset. The SQL queries used for inspection and validation can be accessed [here](https://github.com/manifesting-ba/google-ads/blob/6723ff105238d15d1ac3108c9c84d85e543dee25/data%20cleaning.sql)
 # Executive Summary
 ## Overview of Findings
-The campaign **spent $538K** and **generated $3.7M in revenue**, achieving a **strong 698% ROAS**. Efficiency metrics were solid overall, with **CPC at $1.55, CPA at $33, CTR at 3.1%, and CVR at 4.7%**. From this analysis, **three main insights** stand out. First, **“data analytics course” is the most scalable and profitable keyword**, while alternatives like “online data analytics” and “analytics for data” underperform despite engagement. Second, **high ROAS is driven by quality traffic and efficient spend**, meaning campaigns should **focus on smarter targeting and creative quality**. Finally, **timing shapes performance**, with September as the strongest month and the end-of-year period consistently underperforming, while weekday variation is minimal but Mondays, Thursdays, and Saturdays offer specific opportunities.
+The campaign **spent $538K** and **generated $3.7M in revenue**, achieving a **strong 698% ROAS**. Efficiency metrics were solid overall, with **CPC at $1.55, CPA at $32.99, CTR at 3.07%, and CVR at 4.69%**. From this analysis, **three main insights** stand out. First, **“data analytics course” is the most scalable and profitable keyword**, while alternatives like “online data analytics” and “analytics for data” underperform despite engagement. Second, **high ROAS is driven by quality traffic and efficient spend**, meaning campaigns should **focus on smarter targeting and creative quality**. Finally, **timing shapes performance**, with September as the strongest month and the end-of-year period consistently underperforming, while weekday variation is minimal but Mondays, Thursdays, and Saturdays offer specific opportunities.
+
+Below is a snapshot of the campaign performance dashboard. The interactive version of this dashboard can be accessed [here](https://public.tableau.com/views/ads_17563760681450/dashboard?:language=en-US&:sid=&:redirect=auth&:display_count=n&:origin=viz_share_link) for deeper exploration.
 
 <img width="1040" height="519" alt="overview" src="https://github.com/user-attachments/assets/34e2bbab-7721-440f-9cee-5586630b79d7" />
 
@@ -36,7 +38,7 @@ The campaign **spent $538K** and **generated $3.7M in revenue**, achieving a **s
 - High-ROAS ads (larger bubbles) cluster at lower CPC levels ($1.0–$1.5), while low-ROAS ads (smaller bubbles) sit at higher CPCs ($1.5–$3.0). This shows that **overspending per click does not guarantee quality** — in fact, it often erodes returns.
 - High-ROAS ads consistently maintain lower total spend ($180–$184) compared to low-ROAS ads, which hover around $240–$250. This suggests that efficiency is key — **strong ROAS comes from smart targeting** rather than higher budgets.
 - **Desktop dominates strong ROAS ads**, while **Mobile** and especially **Tablet** appear more often among **weaker ROAS ads**, suggesting performance differences may **tie to platform**.
-- **Insight:** **Strong ROAS** comes from **efficient spend, controlled CPCs, and (in most cases) Desktop traffic**, while **weak ROAS** is tied to **overspending, inflated CPCs, and heavier reliance on Tablet**.
+- **Insight:** **Strong ROAS** comes from **efficient spend, controlled CPCs, and (in most cases) Desktop traffic**, while **weak ROAS** is tied to **overspending, inflated CPCs, and heavier reliance on handheld devices**.
 <img width="1287" height="638" alt="highperforming ads (2) (5)" src="https://github.com/user-attachments/assets/d2b2aac1-6ffd-4e1d-8bae-f2a6eb667185" />
 
 ## Time-Based Performance
@@ -50,7 +52,7 @@ The campaign **spent $538K** and **generated $3.7M in revenue**, achieving a **s
 
 - **Stable Click-Through Rate (CTR):** CTR is remarkably consistent throughout the entire year, hovering between 2.8% and 3.5%. This indicates that the ad creative, copy, and targeting were consistently effective at grabbing attention and convincing users to click. 
 - **Volatile Conversion Rate (CVR):** In contrast, CVR is unstable throughout the year. The **significant dips in CVR in March, May, and December directly correspond to the lower ROAS** seen in those same months on the previous chart.
-- **Insight:** While **CTR remains consistent** throughout the year, the **sharp dips in CVR in March, May, and December** directly caused the lower ROAS in those months. This indicates that the campaign's biggest opportunity lies in **optimizing for conversions** during these specific time periods.
+- **Insight:** While **CTR remains consistent** throughout the year, the **sharp dips in CVR in March, May, and December** closely align with lower ROAS in those months. This suggests that the campaign’s biggest opportunity may in **improving conversions** during these specific time periods.
 <img width="1164" height="608" alt="month (2)" src="https://github.com/user-attachments/assets/2d65e046-8061-41ea-916f-ae9fb20d23c1" />
 
 - Overall, the **ROAS range is narrow** (688%–707%), meaning performance differences across weekdays are minimal.
