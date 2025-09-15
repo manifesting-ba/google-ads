@@ -27,13 +27,13 @@ The campaign **spent $538K** and **generated $3.7M in revenue**, achieving a **s
 
 Below is a snapshot of the campaign performance dashboard. The interactive version of this dashboard can be accessed [here](https://public.tableau.com/views/ads_17563760681450/dashboard?:language=en-US&:sid=&:redirect=auth&:display_count=n&:origin=viz_share_link) for deeper exploration.
 
-<img width="1040" height="519" alt="overview" src="https://github.com/user-attachments/assets/34e2bbab-7721-440f-9cee-5586630b79d7" />
+<img width="957" height="498" alt="Capture" src="https://github.com/user-attachments/assets/49ada2d9-5ef0-4acb-b4c7-1138c1d7fe82" />
 
 # Insights Deep Dive
 ## Ad Performance Analysis
 - Campaigns such as A2660, A2585, A3459, A1976, and A3399 **deliver the strongest ROAS**, **generating 10–11x return on ad spend**. This makes them clear benchmarks for efficiency.
 - Meanwhile, campaigns like A3170, A1429, A2472, A2187, and A2687 fall significantly behind, yielding just **4x return**, **less than half** the efficiency of top performers.
-<img width="1289" height="779" alt="ad rank" src="https://github.com/user-attachments/assets/f3e862c6-ea74-4e60-b90b-972b9921b8d6" />
+<img width="1262" height="779" alt="ad rank (1)" src="https://github.com/user-attachments/assets/1b52520d-fcc1-42a0-a44d-1d446df80665" />
 
 - High-ROAS ads (larger bubbles) cluster at lower CPC levels ($1.0–$1.5), while low-ROAS ads (smaller bubbles) sit at higher CPCs ($1.5–$3.0). This shows that **overspending per click does not guarantee quality** — in fact, it often erodes returns.
 - High-ROAS ads consistently maintain lower total spend ($180–$184) compared to low-ROAS ads, which hover around $240–$250. This suggests that efficiency is key — **strong ROAS comes from smart targeting** rather than higher budgets.
